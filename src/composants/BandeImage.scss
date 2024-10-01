@@ -1,0 +1,38 @@
+.BandeImage {
+    margin-top: 2rem;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    .titreBande{
+
+        padding: 1rem;
+        color: rgb(224, 224, 224);
+    }
+    .imgWrapper {
+        overflow: auto;
+        height: auto;
+        position: relative;
+        width: 100vw;
+        img {
+            width: 300vw;
+            height: auto;
+            // left: 10%;
+        }
+    }
+
+    @media screen and (min-width:992px) {
+
+        .imgWrapper{
+            display: flex;
+            justify-content: center;
+            width: 90vw;
+            img{
+                width: 80vw;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background: rgb(31,17,101);
+  background: linear-gradient(0deg, rgba(31,17,101,1) 0%, rgba(75,53,173,1) 52%, rgba(152,127,177,1) 100%);
+}

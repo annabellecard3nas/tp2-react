@@ -1,0 +1,46 @@
+.BandeAction {
+    color: white;
+    path {
+        color: white;
+    }
+    .infoBande {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        gap: 0.5rem;
+    }
+    .flecheBande{
+        display: flex;
+        justify-content: center;
+    }
+    .likeBande {
+        width: 95vw;
+        display: flex;
+        p{
+            display: flex;
+            width: 1rem;
+            align-items: center;
+        }
+
+    }
+
+    @media screen and (min-width:992px) {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80vw;
+        justify-content: space-between;
+
+        .infoBande {
+            // flex-direction: row;
+            gap: 0;
+            width: 10rem;
+            height: 5rem;
+            padding: 0.5rem;
+            justify-content: center;
+        }
+
+        .likeBande {
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.CommentaireText{
+    .textCom{
+        margin: 1rem;
+        padding: 0.2rem;
+        border: 0.5px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: #ffffff96;
+        .info{
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (min-width:992px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        // width: 80vw;
+        .textCom{
+            width: 60vw;
+        }
+    }
+}
